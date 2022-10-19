@@ -10,8 +10,6 @@ class Main {
 
   // Given the head of a Singly LinkedList, reverse the LinkedList. Write a function to return the new head of the reversed LinkedList.
 
-
-
     public static ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
@@ -31,9 +29,9 @@ class Main {
     head.next.next.next = new ListNode(8);
     head.next.next.next.next = new ListNode(10);
     ListNode result = (Main.reverseList(head));
-    while(result != null){
-          System.out.println(result.value  + " ");
-result = result.next;
+    while(result != null) {
+     System.out.println(result.value  + " ");
+     result = result.next;
     }
  }
 }
